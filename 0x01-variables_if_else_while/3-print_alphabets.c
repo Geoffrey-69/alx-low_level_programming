@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	char c;
+char c;
 
-	char d;
+char d;
 
 c = 'a';
 d = 'A';
@@ -26,4 +26,3 @@ while
 putchar('\n');
 return (0);
 }
-
