@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry
+ * main -main function
  *
  * Return: Always 0
  */
@@ -10,7 +10,7 @@ int main(void)
 	int a;
 
 	for (a = 0; a < 10 ; a++)
-		putchar((a % 10) + '0');
-	putcher('\n');
+		printf("%d", i);
+	printf("\n");
 	return (0);
 }
