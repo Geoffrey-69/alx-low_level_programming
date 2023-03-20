@@ -10,6 +10,6 @@ int main(void)
 
 	for (a = 0; a < 10; a++)
 		putchar((a % 10) + '0');
-	putcher('\n'0;
+	putcher('\n');
 	return (0);
 }
