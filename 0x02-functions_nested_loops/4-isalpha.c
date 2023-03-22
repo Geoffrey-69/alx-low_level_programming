@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * test_isalpha - check if c is a letter, lowercase or uppercase
  * @c: character to check
