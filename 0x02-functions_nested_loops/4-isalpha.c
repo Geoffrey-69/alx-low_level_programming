@@ -1,16 +1,22 @@
 #include "main.h"
+
 /**
- * _isalpha - check if c is a letter, lowercase or uppercase
- * @n: Number to pass to _isalpha function
- * Return: 0
+ * main - check the code.
+ *
+ * Return: Always 0.
  */
 int main(void)
-        void test_isalpha(int n)
 {
-        if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'z'))
-        {
-                return (1);
-        }
-        else
-                return (0);
+	int r;
+
+	r = _isalpha('H');
+	_putchar(r + '0');
+	r = _isalpha('o');
+	_putchar('0');
+	r = _isalpha(108);
+	_putchar(r + '0');
+	r = _isalpha(';');
+	_putchar(r + '0');
+	_putchar('\n');
+	return (0);
 }
