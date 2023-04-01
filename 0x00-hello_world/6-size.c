@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * prints various sizes of computer types
+ * main-prints various sizes of types
  * warnings are allowed
- * return 0
+ * return:0
  */
 
 int main(void)
