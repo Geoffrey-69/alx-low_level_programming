@@ -1,8 +1,11 @@
 #include <stdio.h>
 /**
- * main-prints various sizes of types
- * warnings are allowed
- * return:0
+ * main - prints various sizes of types
+ *
+ * This program prints the sizes of various types on the
+ *                      computer it is compiled and run on.
+ *
+ * Return: 0 on success
  */
 
 int main(void)
