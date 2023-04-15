@@ -58,3 +58,15 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 			return (NULL);
 		return (nptr);
 	}
+
+	if (new_size > old_size)
+	{
+		nptr = malloc(new_size);
+		if (!nptr)
+			return (NULL);
+
+		_memcpy(nptr, ptr, old_size);
+		free(ptr);
+	}
+	return (nptr);
+}
